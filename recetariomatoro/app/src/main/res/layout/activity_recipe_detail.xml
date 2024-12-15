@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nombre de la receta -->
+        <TextView
+            android:id="@+id/tv_recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Receta"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center" />
+
+        <!-- Ingredientes -->
+
+        <!-- Pasos -->
+        <TextView
+            android:id="@+id/tv_recipe_ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Ingredientes"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_recipe_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasos"
+            android:textSize="18sp"
+            android:textColor="@color/secondary_text" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/comer"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <!-- Botón para regresar al menú principal -->
+        <Button
+            android:id="@+id/btn_return_to_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al Menú Principal"
+            android:textSize="18sp"
+            android:backgroundTint="@color/btn_secondary"
+            android:textColor="@color/primary_text"
+            android:layout_marginTop="16dp" />
+
+        <!-- Botón para salir de la aplicación -->
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:textSize="18sp"
+            android:backgroundTint="@color/btn_primary"
+            android:textColor="@color/secondary_text"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

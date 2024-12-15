@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_main"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Alérgenos"
+        android:textSize="30sp"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/lv_allergens"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/notarteg"
+        android:divider="@color/btn_secondary"
+        android:dividerHeight="3dp"
+        android:foregroundTint="@android:color/holo_orange_dark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/alergias"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtrar Recetas"
+        android:textSize="18dp"
+        android:backgroundTint="@color/btn_primary"
+        android:textColor="@color/secondary_text"
+        android:layout_marginTop="16sp" />
+</LinearLayout>

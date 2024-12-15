@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#F3F4F6</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="hintColor">#A1A1A1</color>
+    <color name="buttonColor">#3A86FF</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="editTextColor">#FFFFFF</color>
+    <color name="borderColor">#D1D5DB</color>
+    <color name="accentColor">#FF006E</color>
+    <color name="secondaryTextColor">#9CA3AF</color>
+    <color name="highlightColor">#FFBE0B</color>
+    <color name="linkColor">#8338EC</color>
+    <style name="Base.TextAppearance.AppCompat.">#C5601F</style>
+    <!-- Tonos semiverdes pastel -->
+    <color name="bg_main">#E7F6E7</color> <!-- Fondo principal (verde pastel claro) -->
+    <color name="primary_text">#2E7D32</color> <!-- Texto principal (verde oscuro) -->
+    <color name="secondary_text">#C5601F</color> <!-- Texto secundario (verde oliva oscuro) -->
+    <color name="btn_primary">#ffaf78</color> <!-- Botón principal (verde pastel) -->
+    <color name="btn_secondary">#81C784</color> <!-- Botón secundario (verde pastel más claro) -->
+    <color name="accent">#C8E6C9</color> <!-- Color de acento (verde intermedio) -->
+
+    <!-- Otros colores complementarios -->
+    <color name="divider">#BDBDBD</color> <!-- Divisores o líneas -->
+    <color name="error">#D32F2F</color> <!-- Rojo para mensajes de error -->
+    <color name="white">#FFFFFF</color> <!-- Blanco para texto sobre botones -->
+    <color name="black">#000000</color> <!-- Negro general -->
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_main"
+    android:padding="16dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recetas Recomendadas"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ListView para mostrar las recetas -->
+    <ListView
+        android:id="@+id/lv_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/notarteg"
+        android:divider="@color/btn_secondary"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/libroderecetas"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>
